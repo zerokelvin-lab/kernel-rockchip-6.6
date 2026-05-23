@@ -1,0 +1,38 @@
+# Build outputs
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd
+*.a
+*.order
+*.symvers
+*.dtb
+*.dtb.S
+*.bin
+Image
+Image.gz
+Image.lz4
+zImage
+vmlinux
+vmlinux.o
+Module.symvers
+modules.builtin
+modules.order
+
+# Config generated
+.config
+.config.old
+
+# Build directories
+.tmp_quiet_recordmcount/
+source/
+
+# IDE
+.vscode/
+.idea/
+
+# Temp files
+*.swp
+*.swo
+*~
